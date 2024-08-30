@@ -95,21 +95,23 @@ This guide is only tested on Ubuntu but likely works on any unix-like operating 
 
    Drag and drop a CSV file named ```snvs.csv``` containing all your patient's mutational data into the root directory of the server's Jupyter Hub file explorer. At this point we just need every unique mutation in your dataset to make sure we can map all the important ones to parameters. Use the below file format:
 
-| SNV Name  | 
-| ------------- |
-| CREBBP:p.Y1450H  | 
-| KMT2D:p.Q3759*  | 
-| BCL10:p.L209*  |
-| MYD88:p.L265P  | 
+   | SNV Name  | 
+   | ------------- |
+   | CREBBP:p.Y1450H  | 
+   | KMT2D:p.Q3759*  | 
+   | BCL10:p.L209*  |
+   | MYD88:p.L265P  | 
 
 10. **Query every mutation in OncoKB**
 
-   Run the entire OncoKB_search.ipynb. Either press shift+enter after selecting the first cell, or use the Run menu and select Run All Cells. 
+    Run the entire OncoKB_search.ipynb. Either press shift+enter after selecting the first cell, or use the Run menu and select Run All Cells. 
 
-   ![Alt text](screenshots/screenshot4.png?raw=true "screenshot3")
+    ![Alt text](screenshots/screenshot4.png?raw=true "screenshot3")
+
+11. ** what is next... **
 
 
-This will create a file called ```annotatedSNVs.csv```.
+    This will create a file called ```annotatedSNVs.csv```.
 
 
 
