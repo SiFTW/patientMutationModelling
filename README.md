@@ -59,8 +59,22 @@ This guide is only tested on Ubuntu but likely works on any unix-like operating 
 
    Enter the jupyter login token you set above ("letmein" by default) into the login screen and you will load into Jupyter Lab.
 
-![Alt text](screenshots/screenshot1.png?raw=true "copy screenshot")
+
   
+7. Copy the three notebook files from the ```patientMutationModelling``` folder
+
+   ![Alt text](screenshots/screenshot1.png?raw=true "screenshot1")
+
+   Past these files in the root directoy.
+
+
+   ![Alt text](screenshots/screenshot2.png?raw=true "screenshot2")
+
+8. In OncoKB_search, paste the OncoKB API token that you generated in step 1 in the fourth code block down as shown below.
+
+![Alt text](screenshots/screenshot3.png?raw=true "screenshot3")
+
+
 
 # License
 [(Back to top)](#table-of-contents)
