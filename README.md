@@ -108,12 +108,9 @@ This guide is only tested on Ubuntu but likely works on any unix-like operating 
 
     ![Alt text](screenshots/screenshot4.png?raw=true "screenshot3")
 
-11. ** what is next... **
-
-
     This will create a file called ```annotatedSNVs.csv```.
 
-
+11. **What is next...**
 
 # License
 [(Back to top)](#table-of-contents)
