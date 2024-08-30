@@ -1,4 +1,6 @@
 
+![From mutations to patients](screenshots/banner.jpg)
+
 # Patient-specific modelling using mutational profiles
 
 [![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/navendu-pottekkat/awesome-readme?include_prereleases)](https://img.shields.io/github/v/release/navendu-pottekkat/awesome-readme?include_prereleases)
@@ -7,6 +9,7 @@
 
 The goal of this repository is to provide the quickest way to generate patient-specific modelling preditions as published in [Norris <i>et al.</i> 2024](https://mitchell.science/publication/patient-specific-computational-models-predict-prognosis-in-b-cell-lymphoma-by-quantifying-pro-proliferative-and-anti-apoptotic-signatures-from-genetic-sequencing-data/).
 
+This should let you load in new datasets and ask new questions either in B-cell lymphoma or new diseases.
 ### Installation
 
 This guide is only tested on Ubuntu but likely works on any unix-like operating system. 
@@ -56,6 +59,7 @@ This guide is only tested on Ubuntu but likely works on any unix-like operating 
 
    Enter the jupyter login token you set above ("letmein" by default) into the login screen and you will load into Jupyter Lab.
 
+![Alt text](screenshots/screenshot1.png?raw=true "copy screenshot")
   
 
 # License
