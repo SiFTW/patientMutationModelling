@@ -11,7 +11,7 @@ The goal of this repository is to provide the quickest way to generate patient-s
 
 This should let you load in new datasets and ask new questions either in B-cell lymphoma or new diseases.
 
-### Setup
+## Setup
 
 This guide is only tested on Ubuntu but likely works on any unix-like operating system. 
 
