@@ -76,11 +76,13 @@ You can do [that here](https://www.oncokb.org/api-access). Once you have the API
   
 6. **Move the contents of this repo to the root directory**
 
-   Copy the three notebook files from the ```patientMutationModelling``` folder
+   Copy the three notebook files from the ```patientMutationModelling``` folder:
+   Navigate to the patientMutationModelling folder, select the files by clicking on them while holding down the Ctrl key, right click and select copy.
 
    ![Alt text](screenshots/screenshot1.png?raw=true "screenshot1")
 
    Past these files in the root directoy.
+   Navigate back to the root (home) directory, right click and select paste
 
 
    ![Alt text](screenshots/screenshot2.png?raw=true "screenshot2")
