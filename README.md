@@ -17,7 +17,8 @@ This guide is only tested on Ubuntu but likely works on any unix-like operating 
 
 #### Get an OncoKB API access token. 
 
-    You will need to request an OncoKB API key in order to filter mutations by whether or not they are "likely oncogenic". You can do [that here](https://www.oncokb.org/api-access). Once you have the API token make a note of it because you will need it later.
+You will need to request an OncoKB API key in order to filter mutations by whether or not they are "likely oncogenic". 
+You can do [that here](https://www.oncokb.org/api-access). Once you have the API token make a note of it because you will need it later.
 
 
 <h3> Get the Docker Container Up and Running </h3>
