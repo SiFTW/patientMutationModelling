@@ -91,7 +91,7 @@ You can do [that here](https://www.oncokb.org/api-access). Once you have the API
 
 7. **Add your OncoKB API token to the code**
 
-    Open OncoKB_search.ipynb, and paste the OncoKB API token that you generated in Step 1 (above) into the place shown below (4th code block).
+    Open OncoKB_search.ipynb, and paste your OncoKB API token (generated at the start of this guide) into the place shown below (4th code block).
 
    ![Alt text](screenshots/screenshot3.png?raw=true "screenshot3")
 
