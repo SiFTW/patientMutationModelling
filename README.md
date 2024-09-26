@@ -114,7 +114,9 @@ You can do [that here](https://www.oncokb.org/api-access). Once you have the API
 
     This will create a file called ```annotatedSNVs.csv```.
 
-10. **What is next...**
+10. **Create muts2params file**
+
+    Download the annotatedSNVs.csv file
 
 # License
 [(Back to top)](#table-of-contents)
