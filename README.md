@@ -49,6 +49,10 @@ You can do [that here](https://www.oncokb.org/api-access). Once you have the API
    sudo docker pull siftw/norrisetal
    ```
 
+> [!Note] 
+> 
+> Whenever you run a command using sudo you may be asked for your password. This will be your password for the computational server.  
+
 4. **Run the Docker Image**
 
    Run the Docker image with the below command, which also mounts the folder containing the code you've just downloaded so that it is accessible within the Docker container..
