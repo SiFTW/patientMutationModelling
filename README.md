@@ -110,7 +110,7 @@ You can do [that here](https://www.oncokb.org/api-access). Once you have the API
 
     Run the entire OncoKB_search.ipynb. Either press shift+enter after selecting the first cell, or use the Run menu and select Run All Cells. 
 
-    ![Alt text](screenshots/screenshot4.png?raw=true "screenshot3")
+    ![Alt text](screenshots/screenshot4.png?raw=true "screenshot4")
 
     This will create a file called ```annotatedSNVs.csv```.
 
@@ -130,6 +130,9 @@ You can do [that here](https://www.oncokb.org/api-access). Once you have the API
 ## Run the simulations
 
 Open the 'runMM_auto_allCohorts.ipynb' notebook.
+Edit the number of cells the maximum number of generations to be run if required.
+
+![Alt text](screenshots/screenshot5.png?raw=true "screenshot5")
     
     
 
