@@ -129,12 +129,14 @@ You can do [that here](https://www.oncokb.org/api-access). Once you have the API
 
 ## Run the simulations
 
+Upload a 'patientData' file with columns including 'Patient' (name), 'Gene' and 'Alteration' which should contain all mutations for every patient you want to simulate. 
+
 Open the 'runMM_auto_allCohorts.ipynb' notebook.
 Edit the number of cells the maximum number of generations to be run if required.
 
 ![Alt text](screenshots/screenshot5.png?raw=true "screenshot5")
     
-    
+
 
 # License
 [(Back to top)](#table-of-contents)
