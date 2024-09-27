@@ -142,6 +142,29 @@ Run the code down to here
 
 Double check that the column names in the patientData file are 'PID', 'Gene', 'Alt'. If not then modify them using rename! before creating the 'GeneAlt' column (by concatenating the 'Gene' and 'Alt').
 
+Now you're ready to run the patient simulations!
+
+Run the next code cell which starts with the comment: '## loop to run patient-specific simulations'
+
+### Output
+
+The data generated will be saved in the SSDoutputs/ folder. Launch a terminal and navigate to this folder by typing 
+
+```sh
+cd SSDoutputs 
+```
+
+Create a folder with the name you wish to assign to the data set. E.g. to create a folder with the name cohort1  
+
+```sh
+mkdir cohort1 
+```
+
+If all patient IDs contain a unique string you can use the command line to move qll patient simulation data to the output folder. E.g. if the patient IDs contain the string 'Pat' and you want to transfer the data to the cohort 1 folder then use:
+
+```sh
+mv Pat* cohort1 
+```
 
 
 # License
