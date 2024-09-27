@@ -129,7 +129,7 @@ You can do [that here](https://www.oncokb.org/api-access). Once you have the API
 
 ## Run the simulations
 
-Upload a 'patientData' file with columns including 'PID' (patient ID), 'Gene' and 'Variant' which should contain all mutations for every patient you want to simulate. 
+Upload a 'patientData' file with columns including 'PID' (patient ID), 'Gene' and 'Alt' (alteration) which should contain all mutations for every patient you want to simulate. 
 
 Open the 'runMM_auto_allCohorts.ipynb' notebook.
 Edit the number of cells the maximum number of generations to be run if required.
@@ -140,7 +140,7 @@ Run the code down to here
 
 ![Alt text](screenshots/screenshot6.png?raw=true "screenshot6")
 
-Check that the column names in the patientData file are 'PID', 'Gene', 'Variant'. If not then modify them before creating the 'GeneAlt' column by concatenating the 'Gene' and 'Alteration' .
+Double check that the column names in the patientData file are 'PID', 'Gene', 'Alt'. If not then modify them using rename! before creating the 'GeneAlt' column (by concatenating the 'Gene' and 'Alt').
 
 
 
