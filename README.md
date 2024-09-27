@@ -128,8 +128,8 @@ You can do [that here](https://www.oncokb.org/api-access). Once you have the API
 > 
 >You can refer to m2p_all.csv as it's likely that any given mutation has been modelled prevously.
 
-    Add the mutation and parameter info for the patients to be simulated to 'm2p_all.csv'
-    Save the m2p file and upload it to the Docker image.
+Add the mutation and parameter info for the patients to be simulated to 'm2p_all.csv'
+Save the m2p file and upload it to the Docker image.
 
 ## Run the simulations
 
