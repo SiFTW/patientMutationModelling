@@ -124,9 +124,9 @@ You can do [that here](https://www.oncokb.org/api-access). Once you have the API
     Delete any mutations that are not oncogenic according to OncoKB
     For each mutation/SV/CNA that is within the scope of the model assign the parameter (the value of which should     be modified to simulate the genetic change) and an amount (by which the parameter will be modified).
 
-    > [!Note] 
-    > 
-    > You can refer to m2p_all.csv as it's likely that any given mutation has been modelled prevously.
+> [!Note] 
+> 
+>You can refer to m2p_all.csv as it's likely that any given mutation has been modelled prevously.
 
     Add the mutation and parameter info for the patients to be simulated to 'm2p_all.csv'
     Save the m2p file and upload it to the Docker image.
