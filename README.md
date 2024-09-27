@@ -114,9 +114,19 @@ You can do [that here](https://www.oncokb.org/api-access). Once you have the API
 
     This will create a file called ```annotatedSNVs.csv```.
 
-10. **Create muts2params file**
+10. **Create mutations to parameters (muts2params or m2p) file**
 
     Download the annotatedSNVs.csv file
+    Delete any mutations that are not oncogenic according to OncoKB
+    For each mutation/SV/CNA that is within the scope of the model assign the parameter (the value of which should     be modified to simulate the genetic change) and an amount (by which the parameter will be modified).
+
+    > [!Note] 
+    > 
+    > You can refer to m2p_all.csv as it's likely that any given mutation has been modelled prevously.
+
+    Add the mutation and parameter info for the patients to be simulated to 'm2p_all.csv'
+    
+    
 
 # License
 [(Back to top)](#table-of-contents)
