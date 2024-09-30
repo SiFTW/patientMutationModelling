@@ -170,6 +170,9 @@ If all patient IDs contain a unique string you can use the command line to move 
 mv Pat* cohort1 
 ```
 
+### 6 hour data
+
+To follow the approach used in Norris et al, run get_6r_res.ipynb to get the abundance of each molecular species in the model after 6 hours of simulation for cell 1 of every patient.
 
 # License
 [(Back to top)](#table-of-contents)
