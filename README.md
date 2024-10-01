@@ -23,6 +23,12 @@ You can do [that here](https://www.oncokb.org/api-access). Once you have the API
 
 <h3> Get the Docker Container Up and Running </h3>
 
+If Docker is not installed run the following command:
+
+```sh
+    sudo apt-get install docker.io
+   ```
+
 > [!Note] 
 > 
 > Run steps 1-4 on the computational server you want to run the model from. Ideally a computer with lots of cores and RAM. The remaining steps can be run from any computer with network access to the web-interface (Jupyter Lab) that will be launched when we run the appropriate Docker image. 
