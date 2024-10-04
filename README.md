@@ -25,7 +25,7 @@ You can do [that here](https://www.oncokb.org/api-access). Once you have the API
 
 > [!Note] 
 > 
-> Run steps 1-4 on the computational server you want to run the model from. Ideally a computer with lots of cores and RAM. The remaining steps can be run from any computer with network access to the web-interface (Jupyter Lab) that will be launched when we run the appropriate Docker image. 
+> Run steps 1-4 on the computational server you want to run the model from. Ideally a computer with lots of cores and RAM. The remaining steps can > be run from any computer with network access to the web-interface (Jupyter Lab) that will be launched when we run the appropriate Docker image. 
 
 1. **Create the right folders on your server**.
 
