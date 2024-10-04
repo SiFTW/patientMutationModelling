@@ -23,18 +23,13 @@ You can do [that here](https://www.oncokb.org/api-access). Once you have the API
 
 <h3> Get the Docker Container Up and Running </h3>
 
-If Docker is not installed run the following command:
-
-```sh
-    sudo apt-get install docker.io
-   ```
-
 > [!Note] 
 > 
 > Run steps 1-4 on the computational server you want to run the model from. Ideally a computer with lots of cores and RAM. The remaining steps can be run from any computer with network access to the web-interface (Jupyter Lab) that will be launched when we run the appropriate Docker image. 
 
-
 1. **Create the right folders on your server**.
+
+   Tip: if you wantto paste code from here into a linux terminal hold down Ctrl-Shift-V
 
     Make a directory to work in, and a directory for model outputs to be saved in.
    ```sh
@@ -43,12 +38,18 @@ If Docker is not installed run the following command:
    mkdir outputs
    ```
 
-2. **Clone this repo into your new folders.**
+3. **Clone this repo into your new folders.**
    ```sh
    git clone https://github.com/SiFTW/patientMutationModelling.git
    ```
 
-3. **Download the Docker image** 
+4. **Download the Docker image**
+
+   If Docker is not installed run the following command:
+
+```sh
+    sudo apt-get install docker.io
+   ```
 
    Pull down the docker image you need, which has the model code included, and all Julia packages fixed at the version used in the publication.
    ```sh
@@ -62,6 +63,12 @@ If Docker is not installed run the following command:
 4. **Run the Docker Image**
 
    Run the Docker image with the below command, which also mounts the folder containing the code you've just downloaded so that it is accessible within the Docker container..
+
+> [!Note] 
+> 
+> You can change the --user root -w /home/richard to point to the home folder of your own user on the server e.g.
+> --user root -w /home/joebloggs
+> This will likely make it easier to save the output of simulations.
 
    ```sh 
     sudo docker run --rm --group-add users -p 10005:8888 -e JUPYTER_ENABLE_LAB=yes -e JULIA_NUM_THREADS=64 -e NB_UID=1000 -e NB_USER=richard -e JUPYTER_TOKEN=letmein -v ~/patientModel/outputs:/multiscaleModel/SSDoutputs -v ~/patientModel/patientMutationModelling:/multiscaleModel/patientMutationModelling -e CHOWN_HOME=yes --user root -w /home/richard -e CHOWN_EXTRA_OPTS='-R' -w /multiscaleModel/ --user root -e CHOWN_EXTRA='/multiscaleModel/*,/multiscaleModel/' siftw/norrisetal:latest
