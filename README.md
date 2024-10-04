@@ -29,7 +29,7 @@ You can do [that here](https://www.oncokb.org/api-access). Once you have the API
 
 1. **Create the right folders on your server**.
 
-   Tip: if you wantto paste code from here into a linux terminal hold down Ctrl-Shift-V
+   Tip: if you want to paste code from here into a linux terminal hold down Ctrl-Shift-V
 
     Make a directory to work in, and a directory for model outputs to be saved in.
    ```sh
